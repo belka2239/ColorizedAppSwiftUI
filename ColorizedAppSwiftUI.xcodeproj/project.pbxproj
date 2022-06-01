@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D5AD671F28452590009F37A9 /* ColorizedAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD671E28452590009F37A9 /* ColorizedAppSwiftUIApp.swift */; };
 		D5AD672128452590009F37A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD672028452590009F37A9 /* ContentView.swift */; };
 		D5AD672328452593009F37A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5AD672228452593009F37A9 /* Assets.xcassets */; };
 		D5AD672628452593009F37A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5AD672528452593009F37A9 /* Preview Assets.xcassets */; };
+		D5AD6732284543A5009F37A9 /* ColorSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD6731284543A5009F37A9 /* ColorSliderView.swift */; };
+		D5AD6734284543EF009F37A9 /* ColorValueTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD6733284543EF009F37A9 /* ColorValueTextFieldView.swift */; };
+		D5AD67362845446A009F37A9 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD67352845446A009F37A9 /* ColorView.swift */; };
+		D5AD6738284549A8009F37A9 /* ColorValueTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD6737284549A8009F37A9 /* ColorValueTextView.swift */; };
+		D5AD673A28455F4F009F37A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD673928455F4F009F37A9 /* AppDelegate.swift */; };
+		D5AD673D28455F7D009F37A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD673C28455F7D009F37A9 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D5AD671B28452590009F37A9 /* ColorizedAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorizedAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5AD671E28452590009F37A9 /* ColorizedAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorizedAppSwiftUIApp.swift; sourceTree = "<group>"; };
 		D5AD672028452590009F37A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D5AD672228452593009F37A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5AD672528452593009F37A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D5AD672728452593009F37A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5AD6731284543A5009F37A9 /* ColorSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSliderView.swift; sourceTree = "<group>"; };
+		D5AD6733284543EF009F37A9 /* ColorValueTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorValueTextFieldView.swift; sourceTree = "<group>"; };
+		D5AD67352845446A009F37A9 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		D5AD6737284549A8009F37A9 /* ColorValueTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorValueTextView.swift; sourceTree = "<group>"; };
+		D5AD673928455F4F009F37A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5AD673C28455F7D009F37A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +62,13 @@
 		D5AD671D28452590009F37A9 /* ColorizedAppSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				D5AD671E28452590009F37A9 /* ColorizedAppSwiftUIApp.swift */,
 				D5AD672028452590009F37A9 /* ContentView.swift */,
+				D5AD6731284543A5009F37A9 /* ColorSliderView.swift */,
+				D5AD6733284543EF009F37A9 /* ColorValueTextFieldView.swift */,
+				D5AD6737284549A8009F37A9 /* ColorValueTextView.swift */,
+				D5AD67352845446A009F37A9 /* ColorView.swift */,
+				D5AD673928455F4F009F37A9 /* AppDelegate.swift */,
+				D5AD673C28455F7D009F37A9 /* SceneDelegate.swift */,
 				D5AD672228452593009F37A9 /* Assets.xcassets */,
 				D5AD672728452593009F37A9 /* Info.plist */,
 				D5AD672428452593009F37A9 /* Preview Content */,
@@ -139,7 +154,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5AD672128452590009F37A9 /* ContentView.swift in Sources */,
-				D5AD671F28452590009F37A9 /* ColorizedAppSwiftUIApp.swift in Sources */,
+				D5AD6734284543EF009F37A9 /* ColorValueTextFieldView.swift in Sources */,
+				D5AD6738284549A8009F37A9 /* ColorValueTextView.swift in Sources */,
+				D5AD673A28455F4F009F37A9 /* AppDelegate.swift in Sources */,
+				D5AD6732284543A5009F37A9 /* ColorSliderView.swift in Sources */,
+				D5AD67362845446A009F37A9 /* ColorView.swift in Sources */,
+				D5AD673D28455F7D009F37A9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
